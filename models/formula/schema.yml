@@ -1,8 +1,8 @@
 
-version: 1
+version: 2
 
 models:
-    - name: my_first_dbt_model
+    - name: results
       description: "A starter dbt model"
       columns:
           - name: id
