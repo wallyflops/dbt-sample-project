@@ -10,3 +10,5 @@ models:
             tests:
                 - unique
                 - not_null
+    - name: circuits
+      description: "A View with corrected circuits information"
