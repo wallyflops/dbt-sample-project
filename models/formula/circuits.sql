@@ -11,7 +11,7 @@ select
     alt,
     url
 from
-    dbt_jwaller.circuits
+    dbt_jwaller.source_circuits
 )
 select
     circuitId,
@@ -25,4 +25,4 @@ select
     url
 from    
     source_data
-;
+
